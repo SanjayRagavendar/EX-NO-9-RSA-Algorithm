@@ -140,7 +140,7 @@ int main() {
 }
 ```
 ## Output:
-![Screenshot (201)](https://github.com/user-attachments/assets/93268f56-ab09-4d5d-8b2a-8f6e5fd1cec5)
+![image](https://github.com/user-attachments/assets/31b0d79f-1326-4c8c-bfce-b0e1153d61a2)
 
 ## Result:
  The program is executed successfully.
