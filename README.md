@@ -37,7 +37,6 @@ The security of RSA relies on the difficulty of factoring large numbers; thus, c
 
 ## Program:
 ```
-
 #include <stdio.h>
 #include <string.h>
 #include <math.h>
@@ -65,7 +64,6 @@ long long mod_exp(long long base, long long exp, long long mod) {
     }
     return result;
 }
-
 // Function to calculate the modular inverse of e mod phi using the extended Euclidean algorithm
 int mod_inverse(int e, int phi) {
     int t = 0, newt = 1;
@@ -83,7 +81,6 @@ int mod_inverse(int e, int phi) {
     if (t < 0) t = t + phi;
     return t;
 }
-
 int main() {
     // Step 1: Initialize prime numbers p and q (use larger primes for real-world applications)
     int p = 61;
